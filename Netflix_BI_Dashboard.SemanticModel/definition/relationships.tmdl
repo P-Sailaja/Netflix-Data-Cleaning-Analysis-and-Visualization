@@ -1,0 +1,5 @@
+relationship 2ea34692-bc0a-4af4-a326-829625a25e5f
+	joinOnDateBehavior: datePartOnly
+	fromColumn: netflix_titles.date_added
+	toColumn: LocalDateTable_89af72f3-f738-4e3c-b760-72b5450203b6.Date
+

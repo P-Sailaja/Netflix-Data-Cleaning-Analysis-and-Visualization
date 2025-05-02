@@ -1,0 +1,2860 @@
+cultureInfo en-GB
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "netflix_title": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "netflix title": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "netflix_titles": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "netflix designation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "netflix name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "netflix award": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "netflix call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "netflix heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "netflix label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "netflix_title.show_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "ConceptualProperty": "show_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "show id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "show_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "show identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "show identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "show identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "show credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "netflix_title.type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "ConceptualProperty": "type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "netflix_title.title": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "ConceptualProperty": "title"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "title": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "designation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "award": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "netflix_title.director": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "ConceptualProperty": "director"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "director": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "administrator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "leader": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "executive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "boss": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "principal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "chief": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "instructor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "counselor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "counsellor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "netflix_title.cast": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "ConceptualProperty": "cast"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cast": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "company": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "troupe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "netflix_title.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "ConceptualProperty": "country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "netflix_title.date_added": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "ConceptualProperty": "date_added"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date_added": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "moment added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "period added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "netflix_title.date_added.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "VariationSource": "date_added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "netflix_title.date_added.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "VariationSource": "date_added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "yr added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment added year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period added year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "netflix_title.date_added.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "VariationSource": "date_added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "qtr added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "moment added quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period added quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "netflix_title.date_added.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "VariationSource": "date_added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "mth added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment added month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period added month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "netflix_title.date_added.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "VariationSource": "date_added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment added day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period added day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "netflix_title.release_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "ConceptualProperty": "release_year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "release year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "release_year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "release yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "netflix_title.rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "ConceptualProperty": "rating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sailor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "seaman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "hand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "netflix_title.duration": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "ConceptualProperty": "duration"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "duration": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "length": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spell": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "netflix_title.listed_in": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "ConceptualProperty": "listed_in"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "listed in": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "listed_in": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "netflix_title.description": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "ConceptualProperty": "description"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "description": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "descriptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "specification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "overview": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "report": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "netflix_title.country_new": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "ConceptualProperty": "Country_new"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country new": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Country_new": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "nation new": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "location new": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "netflix_title.director_new": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "netflix_titles",
+			          "ConceptualProperty": "Director_new"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "director new": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Director_new": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "manager new": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "administrator new": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "leader new": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "executive new": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "boss new": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "principal new": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "chief new": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "instructor new": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "counselor new": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "counsellor new": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "measure_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure_"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "measure_": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "measure_.column_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure_",
+			          "ConceptualProperty": "Column1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "measure_.total_shows": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure_",
+			          "ConceptualProperty": "Total Shows"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total shows": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "shows": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate show": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall show": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total demonstration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total expression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total illustration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total confirmation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total spectacle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "demonstration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "measure_.movies": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure_",
+			          "ConceptualProperty": "Movies"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "movies": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cinema": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "picture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "flick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "measure_.TV_shows": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure_",
+			          "ConceptualProperty": "TV Shows"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "TV shows": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "shows": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "tv demonstration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tv expression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tv illustration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tv confirmation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tv appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tv indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tv spectacle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "demonstration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "illustration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "measure_.total_directors": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure_",
+			          "ConceptualProperty": "Total Directors"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total directors": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "directors": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate director": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall director": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "total management": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total executive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total board": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total boss": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "netflix_title_date_added_date_hierarchy_has_netflix_title_date_added_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "netflix_title.date_added.date_hierarchy"
+			          }
+			        },
+			        "netflix_title.date_added.quarter": {
+			          "Target": {
+			            "Entity": "netflix_title.date_added.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title.date_added.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.date_added.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_added_have_quarter_added"
+			        }
+			      ]
+			    },
+			    "netflix_title_date_added_date_hierarchy_has_netflix_title_date_added_year": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "netflix_title.date_added.date_hierarchy"
+			          }
+			        },
+			        "netflix_title.date_added.year": {
+			          "Target": {
+			            "Entity": "netflix_title.date_added.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title.date_added.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.date_added.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_added_have_year_added"
+			        }
+			      ]
+			    },
+			    "netflix_title_date_added_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title.date_added": {
+			          "Target": {
+			            "Entity": "netflix_title.date_added"
+			          }
+			        },
+			        "netflix_title.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "netflix_title.date_added.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title.date_added"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.date_added.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_added_have_date_hierarchy_added"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_measure__total_directors": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "measure_.total_directors": {
+			          "Target": {
+			            "Entity": "measure_.total_directors"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "measure_.total_directors"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_total_directors"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_measure__TV_shows": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "measure_.TV_shows": {
+			          "Target": {
+			            "Entity": "measure_.TV_shows"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "measure_.TV_shows"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_TV_shows"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_measure__movies": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "measure_.movies": {
+			          "Target": {
+			            "Entity": "measure_.movies"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "measure_.movies"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_movies"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_measure__total_shows": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "measure_.total_shows": {
+			          "Target": {
+			            "Entity": "measure_.total_shows"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "measure_.total_shows"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_total_shows"
+			        }
+			      ]
+			    },
+			    "measure__has_column_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Measure_"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "measure_": {
+			          "Target": {
+			            "Entity": "measure_"
+			          }
+			        },
+			        "measure_.column_1": {
+			          "Target": {
+			            "Entity": "measure_.column_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "measure_"
+			            },
+			            "Object": {
+			              "Role": "measure_.column_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "measure__have_column_1"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_director_new": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.director_new": {
+			          "Target": {
+			            "Entity": "netflix_title.director_new"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.director_new"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_director_new"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_country_new": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.country_new": {
+			          "Target": {
+			            "Entity": "netflix_title.country_new"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.country_new"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_country_new"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_description": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.description": {
+			          "Target": {
+			            "Entity": "netflix_title.description"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.description"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_descriptions"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_listed_in": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.listed_in": {
+			          "Target": {
+			            "Entity": "netflix_title.listed_in"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.listed_in"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_listed_in"
+			        },
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "list": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "netflix_title"
+			            },
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "in": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "netflix_title.listed_in"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "netflix_titles_are_listed_in_listed_in"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_duration": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.duration": {
+			          "Target": {
+			            "Entity": "netflix_title.duration"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.duration"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_durations"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.rating": {
+			          "Target": {
+			            "Entity": "netflix_title.rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_rating"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_release_year": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.release_year": {
+			          "Target": {
+			            "Entity": "netflix_title.release_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.release_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_release_years"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_date_added": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.date_added": {
+			          "Target": {
+			            "Entity": "netflix_title.date_added"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.date_added"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_date_added"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.country": {
+			          "Target": {
+			            "Entity": "netflix_title.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_countries"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_cast": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.cast": {
+			          "Target": {
+			            "Entity": "netflix_title.cast"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.cast"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_casts"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_director": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.director": {
+			          "Target": {
+			            "Entity": "netflix_title.director"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.director"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_directors"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "netflix_title.director"
+			            },
+			            "Verbs": [
+			              {
+			                "direct": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "netflix_title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "directors_direct_netflix_titles"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title.director"
+			            },
+			            "Object": {
+			              "Role": "netflix_title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "directors_have_netflix_titles"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_title": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.title": {
+			          "Target": {
+			            "Entity": "netflix_title.title"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_titles"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_type": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.type": {
+			          "Target": {
+			            "Entity": "netflix_title.type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_types"
+			        }
+			      ]
+			    },
+			    "netflix_title_has_show_id": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.show_id": {
+			          "Target": {
+			            "Entity": "netflix_title.show_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.show_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_have_show_ids"
+			        }
+			      ]
+			    },
+			    "netflix_title_in_country_new": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.country_new": {
+			          "Target": {
+			            "Entity": "netflix_title.country_new"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "netflix_title.country_new"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "netflix_title.country_new"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_are_in_country_new"
+			        }
+			      ]
+			    },
+			    "netflix_title_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.country": {
+			          "Target": {
+			            "Entity": "netflix_title.country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "netflix_title.country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "netflix_title"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "netflix_title.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "netflix_titles_are_in_countries"
+			        }
+			      ]
+			    },
+			    "netflix_title_is_released_in_release_year": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.release_year": {
+			          "Target": {
+			            "Entity": "netflix_title.release_year"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "netflix_title.release_year"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "release": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "netflix_title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "netflix_titles_are_released_on_release_years"
+			        }
+			      ]
+			    },
+			    "netflix_title_is_added_on_date_added": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title": {
+			          "Target": {
+			            "Entity": "netflix_title"
+			          }
+			        },
+			        "netflix_title.date_added": {
+			          "Target": {
+			            "Entity": "netflix_title.date_added"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "netflix_title.date_added"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "add": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "netflix_title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "netflix_titles_are_added_on_date_added"
+			        }
+			      ]
+			    },
+			    "netflix_title_date_added_date_hierarchy_has_netflix_title_date_added_month": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "netflix_title.date_added.date_hierarchy"
+			          }
+			        },
+			        "netflix_title.date_added.month": {
+			          "Target": {
+			            "Entity": "netflix_title.date_added.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title.date_added.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.date_added.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_added_have_month_added"
+			        }
+			      ]
+			    },
+			    "netflix_title_date_added_date_hierarchy_has_netflix_title_date_added_day": {
+			      "Binding": {
+			        "ConceptualEntity": "netflix_titles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "netflix_title.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "netflix_title.date_added.date_hierarchy"
+			          }
+			        },
+			        "netflix_title.date_added.day": {
+			          "Target": {
+			            "Entity": "netflix_title.date_added.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "netflix_title.date_added.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "netflix_title.date_added.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_added_have_day_added"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

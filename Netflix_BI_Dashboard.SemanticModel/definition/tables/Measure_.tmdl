@@ -1,0 +1,38 @@
+table Measure_
+	lineageTag: 05b30737-187b-4919-a5bc-6c88ed2ccffb
+
+	measure 'Total Shows' = CALCULATE(DISTINCTCOUNT(netflix_titles[show_id]))
+		formatString: #,0
+		lineageTag: 01d34e91-c4a3-4eac-9884-176c32184951
+
+	measure Movies = CALCULATE(DISTINCTCOUNT(netflix_titles[show_id]), FILTER(netflix_titles, netflix_titles[type] = "Movie"))
+		formatString: #,0
+		lineageTag: 9b446c7a-7f46-40a3-b02a-9dbec4e2294c
+
+	measure 'TV Shows' = CALCULATE(DISTINCTCOUNT(netflix_titles[show_id]), FILTER(netflix_titles, netflix_titles[type] = "TV Show"))
+		formatString: #,0
+		lineageTag: bbc3ea2c-31d4-4fce-bd68-01e93b6fac8f
+
+	measure 'Total Directors' = CALCULATE(DISTINCTCOUNT(netflix_titles[Director_new]))
+		formatString: 0
+		lineageTag: ee1185b8-47c0-439e-a194-e763745995fc
+
+	column Column1
+		dataType: string
+		lineageTag: 8272dc26-aaef-41b6-b7b4-ad660ebc39ba
+		summarizeBy: none
+		sourceColumn: Column1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Measure_ = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

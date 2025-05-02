@@ -1,0 +1,143 @@
+table netflix_titles
+	lineageTag: 998071fa-050d-4615-8203-7094ed3d3566
+
+	column show_id
+		dataType: string
+		lineageTag: e98dbc0b-4f54-443c-bfa4-b9d3e992e281
+		summarizeBy: none
+		sourceColumn: show_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column type
+		dataType: string
+		lineageTag: b713edab-c4ba-4159-95ab-b42c5c8745a4
+		summarizeBy: none
+		sourceColumn: type
+
+		annotation SummarizationSetBy = Automatic
+
+	column title
+		dataType: string
+		lineageTag: f772e6e3-03e7-4f44-84ba-35766ad73004
+		summarizeBy: none
+		sourceColumn: title
+
+		annotation SummarizationSetBy = Automatic
+
+	column director
+		dataType: string
+		lineageTag: b98bad18-12fd-4bf0-97ff-04e6e3d565e9
+		summarizeBy: none
+		sourceColumn: director
+
+		annotation SummarizationSetBy = Automatic
+
+	column cast
+		dataType: string
+		lineageTag: a1061940-4202-4fb6-94e7-ae0ee17dd0de
+		summarizeBy: none
+		sourceColumn: cast
+
+		annotation SummarizationSetBy = Automatic
+
+	column country
+		dataType: string
+		lineageTag: 2a3d50cd-b7f8-40fa-b7ed-d08085f139c6
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column date_added
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: c11ecdd3-f780-4756-b3e2-4606616ce052
+		summarizeBy: none
+		sourceColumn: date_added
+
+		variation Variation
+			isDefault
+			relationship: 2ea34692-bc0a-4af4-a326-829625a25e5f
+			defaultHierarchy: LocalDateTable_89af72f3-f738-4e3c-b760-72b5450203b6.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column release_year
+		dataType: int64
+		formatString: 0
+		lineageTag: 7d0b3131-214b-4406-9e5e-6466242b16e6
+		summarizeBy: sum
+		sourceColumn: release_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column rating
+		dataType: string
+		lineageTag: 0f429135-d614-4251-9d62-243c923849e5
+		summarizeBy: none
+		sourceColumn: rating
+
+		annotation SummarizationSetBy = Automatic
+
+	column duration
+		dataType: string
+		lineageTag: 682f7dca-c3e2-43bd-9263-6786710d73f2
+		summarizeBy: none
+		sourceColumn: duration
+
+		annotation SummarizationSetBy = Automatic
+
+	column listed_in
+		dataType: string
+		lineageTag: 92983ac7-d97b-4eab-80f8-d09427bc7934
+		summarizeBy: none
+		sourceColumn: listed_in
+
+		annotation SummarizationSetBy = Automatic
+
+	column description
+		dataType: string
+		lineageTag: 0e27932e-ded0-48b6-bdd9-cfbb4fcee21b
+		summarizeBy: none
+		sourceColumn: description
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country_new
+		dataType: string
+		lineageTag: 06a682b9-519b-4fa2-bf67-fe3b488ca78a
+		summarizeBy: none
+		sourceColumn: Country_new
+
+		annotation SummarizationSetBy = Automatic
+
+	column Director_new
+		dataType: string
+		lineageTag: 9cd19443-813a-42ad-ab85-ffeb96f063ef
+		summarizeBy: none
+		sourceColumn: Director_new
+
+		annotation SummarizationSetBy = Automatic
+
+	partition netflix_titles = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\hp\Downloads\netflix_titles.csv"),[Delimiter=",", Columns=12, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Use First Row as Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Change Type" = Table.TransformColumnTypes(#"Use First Row as Headers",{{"show_id", type text}, {"type", type text}, {"title", type text}, {"director", type text}, {"cast", type text}, {"country", type text}, {"date_added", type text}, {"release_year", type text}, {"rating", type text}, {"duration", type text}, {"listed_in", type text}, {"description", type text}}),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Change Type",{{"date_added", type date}, {"release_year", Int64.Type}}),
+				    #"Inserted Text Before Delimiter" = Table.AddColumn(#"Changed Type", "Text Before Delimiter", each Text.BeforeDelimiter([country], ","), type text),
+				    #"Renamed Columns" = Table.RenameColumns(#"Inserted Text Before Delimiter",{{"Text Before Delimiter", "Country_new"}}),
+				    #"Inserted Text Before Delimiter1" = Table.AddColumn(#"Renamed Columns", "Text Before Delimiter", each Text.BeforeDelimiter([director], ","), type text),
+				    #"Renamed Columns1" = Table.RenameColumns(#"Inserted Text Before Delimiter1",{{"Text Before Delimiter", "Director_new"}})
+				in
+				    #"Renamed Columns1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
