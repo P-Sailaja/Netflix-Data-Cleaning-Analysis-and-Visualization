@@ -1,2 +1,29 @@
 # Netflix_Project
 Netflix Project with Python, SQL and Power BI
+
+---
+
+## 📊 Netflix Data Cleaning, Analysis & Visualization Project
+
+This project focuses on cleaning, analyzing, and visualizing Netflix content data using **SQL**, **Python**, and **Power BI**. It explores trends in content types, release patterns, and genre popularity, helping derive actionable insights for content strategy and user engagement.
+
+### 🧾 Dataset Columns Used:
+
+* `show_id`, `type`, `title`, `director`, `cast`, `country`, `date_added`,
+  `release_year`, `rating`, `duration`, `listed_in`, `description`
+
+### 🛠️ Tools & Technologies:
+
+* **Python**: Data cleaning, preprocessing, and analysis using pandas and matplotlib/seaborn
+* **SQL**: Querying structured data for exploration and transformation
+* **Power BI**: Creating interactive dashboards for impactful business visualizations
+
+### ✅ Key Outcomes:
+
+* Identified content trends by year, country, and genre
+* Visualized content rating distributions and duration trends
+* Suggested business strategies for content acquisition and release planning
+
+This project not only demonstrates my skills in **data wrangling and visualization**, but also reflects my ability to deliver **insight-driven storytelling** through data.
+
+---
