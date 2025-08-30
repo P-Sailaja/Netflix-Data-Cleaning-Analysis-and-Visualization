@@ -1,6 +1,8 @@
 ## 📊 Netflix Data Cleaning, Analysis & Visualization Project
 
 This project focuses on cleaning, analyzing, and visualizing Netflix content data using **SQL**, **Python**, and **Power BI**. It explores trends in content types, release patterns, and genre popularity, helping derive actionable insights for content strategy and user engagement.
+### Dashboard Overview:
+<img width="1544" height="854" alt="netflix" src="https://github.com/user-attachments/assets/29569ac3-297a-46a6-8f68-4f126c7c4c6d" />
 
 ### 🧾 Dataset Columns Used:
 
